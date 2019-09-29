@@ -1,0 +1,610 @@
+2019-09-24 13:17:19:245 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplication on DESKTOP-UTJOI6G with PID 3952 (D:\eclipse-workspace\OCR-web\target\classes started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 13:17:19:261 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 13:17:21:669 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 13:17:24:115 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-24 13:17:24:176 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:17:24:216 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-24 13:17:24:217 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-24 13:17:24:683 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-24 13:17:24:684 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 5201 ms 
+2019-09-24 13:17:25:482 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 13:17:25:657 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 13:17:26:654 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:17:26:744 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-24 13:17:26:754 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplication in 8.784 seconds (JVM running for 10.152) 
+2019-09-24 13:18:50:195 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplication on DESKTOP-UTJOI6G with PID 8808 (D:\eclipse-workspace\OCR-web\target\classes started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 13:18:50:209 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 13:18:52:836 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 13:18:54:922 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-24 13:18:54:969 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:18:55:008 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-24 13:18:55:009 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-24 13:18:55:614 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-24 13:18:55:616 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 5135 ms 
+2019-09-24 13:18:56:400 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 13:18:56:571 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 13:18:59:506 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:18:59:685 [main] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Failed to start component [Connector[HTTP/1.1-8080]] 
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.steelgt.gavin.OcrWebApplication.main(OcrWebApplication.java:10)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-24 13:18:59:797 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Pausing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:18:59:799 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Stopping service [Tomcat] 
+2019-09-24 13:18:59:873 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+2019-09-24 13:18:59:875 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Stopping ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:18:59:876 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Destroying ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:18:59:884 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener logMessage 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2019-09-24 13:18:59:891 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter report 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ 
+2019-09-24 13:18:59:901 [main] INFO  o.s.s.c.ExecutorConfigurationSupport shutdown 208 - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-24 13:19:50:358 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-24 13:19:50:361 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-24 13:19:50:393 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 31 ms 
+2019-09-24 13:46:13:958 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplication on DESKTOP-UTJOI6G with PID 14720 (D:\eclipse-workspace\OCR-web\target\classes started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 13:46:13:964 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 13:46:17:331 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 13:46:19:738 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-24 13:46:19:866 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:46:19:963 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-24 13:46:19:964 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-24 13:46:20:499 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-24 13:46:20:500 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 6389 ms 
+2019-09-24 13:46:21:141 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 13:46:21:475 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 13:46:22:457 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-24 13:46:22:534 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-24 13:46:22:546 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplication in 10.06 seconds (JVM running for 11.658) 
+2019-09-24 13:46:30:460 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-24 13:46:30:465 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-24 13:46:30:485 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 20 ms 
+2019-09-24 13:46:48:967 [http-nio-8080-exec-3] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.FileUploadBase$FileSizeLimitExceededException: The field fileUpload exceeds its maximum permitted size of 1048576 bytes.] with root cause 
+org.apache.tomcat.util.http.fileupload.FileUploadBase$FileSizeLimitExceededException: The field fileUpload exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase$FileItemIteratorImpl$FileItemStreamImpl$1.raiseError(FileUploadBase.java:633)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:98)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:294)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2868)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:3196)
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1113)
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-24 13:47:31:245 [http-nio-8080-exec-5] ERROR org.thymeleaf.TemplateEngine process 1136 - [THYMELEAF][http-nio-8080-exec-5] Exception processing template "upload": Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-24 13:47:31:253 [http-nio-8080-exec-5] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-24 13:50:15:060 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer logDuplicateJsonObjectsWarning 81 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/zaj/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/zaj/.m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+ 
+2019-09-24 13:50:15:111 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplicationTests on DESKTOP-UTJOI6G with PID 3480 (started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 13:50:15:239 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 13:50:18:693 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 13:50:21:373 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 13:50:21:617 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 13:50:23:882 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplicationTests in 9.958 seconds (JVM running for 12.321) 
+2019-09-24 13:50:26:596 [Thread-1] INFO  o.s.s.c.ExecutorConfigurationSupport shutdown 208 - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-24 13:53:11:116 [http-nio-8080-exec-6] ERROR org.thymeleaf.TemplateEngine process 1136 - [THYMELEAF][http-nio-8080-exec-6] Exception processing template "upload": Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-24 13:53:11:126 [http-nio-8080-exec-6] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-24 13:54:35:895 [http-nio-8080-exec-8] ERROR org.thymeleaf.TemplateEngine process 1136 - [THYMELEAF][http-nio-8080-exec-8] Exception processing template "upload": Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-24 13:54:35:898 [http-nio-8080-exec-8] ERROR org.apache.juli.logging.DirectJDKLog log 175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause 
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [upload], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-09-24 14:00:02:265 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplication on DESKTOP-UTJOI6G with PID 13724 (D:\eclipse-workspace\OCR-web\target\classes started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 14:00:02:272 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 14:00:04:322 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 14:00:06:034 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-24 14:00:06:075 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 14:00:06:117 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-24 14:00:06:120 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-24 14:00:06:596 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-24 14:00:06:598 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4216 ms 
+2019-09-24 14:00:07:121 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 14:00:07:310 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 14:00:08:367 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-24 14:00:08:478 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-24 14:00:08:501 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplication in 7.554 seconds (JVM running for 9.089) 
+2019-09-24 14:00:29:815 [http-nio-8080-exec-2] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-24 14:00:29:816 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-24 14:00:29:836 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 19 ms 
+2019-09-24 14:09:52:992 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplication on DESKTOP-UTJOI6G with PID 9184 (D:\eclipse-workspace\OCR-web\target\classes started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 14:09:52:998 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 14:09:55:202 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 14:09:57:088 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-24 14:09:57:128 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 14:09:57:168 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-24 14:09:57:171 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-24 14:09:57:740 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-24 14:09:57:741 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4609 ms 
+2019-09-24 14:09:58:331 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 14:09:58:500 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 14:09:59:291 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-24 14:09:59:361 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-24 14:09:59:370 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplication in 7.687 seconds (JVM running for 8.949) 
+2019-09-24 14:10:10:891 [http-nio-8080-exec-1] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-24 14:10:10:892 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-24 14:10:10:919 [http-nio-8080-exec-1] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 27 ms 
+2019-09-24 14:10:11:099 [http-nio-8080-exec-1] INFO  c.s.g.C.PicUploadOcrController upload 32 - 开始使用百度OCR识别图片中的文字 
+2019-09-24 14:10:14:979 [http-nio-8080-exec-1] INFO  c.s.g.C.PicUploadOcrController upload 33 - 结果为:{"log_id": 6427885433804939960, "words_result_num": 77, "words_result": [{"location": {"width": 429, "top": 11, "left": 191, "height": 39}, "words": "士儿途:川在测路兰中,也可以行为心引发语言"}, {"location": {"width": 219, "top": 69, "left": 193, "height": 31}, "words": "语法:类似与ava,简你is"}, {"location": {"width": 215, "top": 119, "left": 348, "height": 39}, "words": "N至子上(敢,小致了"}, {"location": {"width": 224, "top": 164, "left": 189, "height": 69}, "words": "让态致头型"}, {"location": {"width": 299, "top": 252, "left": 359, "height": 24}, "words": "Ured六如交∴了态,没好们!"}, {"location": {"width": 288, "top": 321, "left": 221, "height": 52}, "words": "的以尔"}, {"location": {"width": 281, "top": 392, "left": 311, "height": 29}, "words": "除嘴,除出环下为元次ny"}, {"location": {"width": 187, "top": 430, "left": 311, "height": 24}, "words": "进行法的数了运算江平是"}, {"location": {"width": 76, "top": 434, "left": 562, "height": 22}, "words": "Numbr!"}, {"location": {"width": 297, "top": 462, "left": 309, "height": 39}, "words": "宁分冲转突败了卡然。,订是NN"}, {"location": {"width": 209, "top": 548, "left": 551, "height": 39}, "words": "效:,。非"}, {"location": {"width": 399, "top": 583, "left": 312, "height": 41}, "words": "件,可计典门;中记心"}, {"location": {"width": 174, "top": 623, "left": 549, "height": 26}, "words": ".ul.uwefrekse"}, {"location": {"width": 234, "top": 656, "left": 659, "height": 31}, "words": "(0r(8:-8:1<29!"}, {"location": {"width": 48, "top": 684, "left": 770, "height": 22}, "words": "吧”:"}, {"location": {"width": 106, "top": 703, "left": 665, "height": 26}, "words": "}.."}, {"location": {"width": 425, "top": 727, "left": 193, "height": 29}, "words": "|js中没方块作用:只要定义了,们州以部可以使用"}, {"location": {"width": 63, "top": 720, "left": 729, "height": 22}, "words": "'心(i门;"}, {"location": {"width": 76, "top": 813, "left": 444, "height": 26}, "words": "完秋"}, {"location": {"width": 144, "top": 886, "left": 507, "height": 26}, "words": "cy.28:.23:"}, {"location": {"width": 213, "top": 903, "left": 453, "height": 31}, "words": ",srlrrom.ngr;"}, {"location": {"width": 196, "top": 943, "left": 537, "height": 26}, "words": "2(N1.14…H可"}, {"location": {"width": 299, "top": 969, "left": 455, "height": 26}, "words": "泪y\"可;"}, {"location": {"width": 129, "top": 1016, "left": 442, "height": 26}, "words": "你句元。"}, {"location": {"width": 18, "top": 1045, "left": 646, "height": 18}, "words": "1e"}, {"location": {"width": 191, "top": 1064, "left": 575, "height": 26}, "words": "rmnnlr.nsarrry\"i"}, {"location": {"width": 58, "top": 1113, "left": 440, "height": 22}, "words": "1抛皮"}, {"location": {"width": 136, "top": 1139, "left": 925, "height": 26}, "words": "分江六元要"}, {"location": {"width": 594, "top": 1173, "left": 455, "height": 37}, "words": "句动入几1可同一心可下动沉罚,本元irmaL1:"}, {"location": {"width": 106, "top": 1264, "left": 451, "height": 35}, "words": "人到杀元"}, {"location": {"width": 185, "top": 1251, "left": 586, "height": 33}, "words": "分点除票,pp("}, {"location": {"width": 50, "top": 1268, "left": 732, "height": 22}, "words": ".pp)"}, {"location": {"width": 419, "top": 1276, "left": 440, "height": 43}, "words": "!从会乐元,p:"}, {"location": {"width": 178, "top": 1332, "left": 440, "height": 20}, "words": "小问的一个下杆前除开需"}, {"location": {"width": 142, "top": 1367, "left": 500, "height": 20}, "words": "RA。行么儿,"}, {"location": {"width": 127, "top": 1365, "left": 815, "height": 22}, "words": "滨17345"}, {"location": {"width": 215, "top": 1442, "left": 468, "height": 59}, "words": "心头"}, {"location": {"width": 76, "top": 1642, "left": 50, "height": 28}, "words": "JS基础"}, {"location": {"width": 474, "top": 1601, "left": 522, "height": 71}, "words": "!别-.”…”。“当于第一个学一"}, {"location": {"width": 69, "top": 1702, "left": 755, "height": 22}, "words": "个气突"}, {"location": {"width": 86, "top": 1798, "left": 191, "height": 31}, "words": "型"}, {"location": {"width": 187, "top": 1887, "left": 551, "height": 28}, "words": "array-InFarr(1-"}, {"location": {"width": 185, "top": 2097, "left": 453, "height": 22}, "words": "concclcgdatc不z当萌lu"}, {"location": {"width": 208, "top": 2131, "left": 432, "height": 26}, "words": "l:oncelegisatc.aetuYn"}, {"location": {"width": 67, "top": 2149, "left": 584, "height": 31}, "words": "ont”"}, {"location": {"width": 123, "top": 2194, "left": 500, "height": 22}, "words": "lrgtatr."}, {"location": {"width": 230, "top": 2351, "left": 414, "height": 56}, "words": "字1:21"}, {"location": {"width": 209, "top": 2396, "left": 431, "height": 22}, "words": "E单1口7799!m"}, {"location": {"width": 223, "top": 2458, "left": 432, "height": 37}, "words": "次,没上"}, {"location": {"width": 140, "top": 2486, "left": 417, "height": 28}, "words": "18.1的5次中"}, {"location": {"width": 91, "top": 2524, "left": 416, "height": 28}, "words": "8仔腰"}, {"location": {"width": 52, "top": 2514, "left": 509, "height": 18}, "words": "沙!"}, {"location": {"width": 256, "top": 2617, "left": 417, "height": 29}, "words": "|÷÷irdxor,“+门)"}, {"location": {"width": 607, "top": 2701, "left": 309, "height": 44}, "words": "事种说还说子r24:”效埋起给下际,这到是结来下"}, {"location": {"width": 318, "top": 2748, "left": 549, "height": 56}, "words": ",为,经了:一个近约"}, {"location": {"width": 404, "top": 2789, "left": 496, "height": 26}, "words": "str,epineed/a/e.\"c\"j://glaa1(小界的)华育满的"}, {"location": {"width": 127, "top": 2874, "left": 502, "height": 24}, "words": "1去示个分姐"}, {"location": {"width": 239, "top": 2888, "left": 536, "height": 52}, "words": "我示就一个分泪"}, {"location": {"width": 31, "top": 2943, "left": 491, "height": 22}, "words": "1:"}, {"location": {"width": 219, "top": 3031, "left": 672, "height": 22}, "words": "JMFmwm.RynNAr签么?"}, {"location": {"width": 232, "top": 3092, "left": 492, "height": 22}, "words": "说忍山态,忍以偿个"}, {"location": {"width": 163, "top": 3124, "left": 551, "height": 24}, "words": "1rc、n"}, {"location": {"width": 356, "top": 3147, "left": 477, "height": 28}, "words": ",好.5."}, {"location": {"width": 376, "top": 3178, "left": 479, "height": 41}, "words": "标还做这照代通”方式示"}, {"location": {"width": 138, "top": 3259, "left": 193, "height": 31}, "words": "|js提htm标签"}, {"location": {"width": 283, "top": 3261, "left": 657, "height": 33}, "words": ",1k一u()"}, {"location": {"width": 496, "top": 3274, "left": 453, "height": 48}, "words": "!【标一交生;likfumm()t"}, {"location": {"width": 356, "top": 3313, "left": 560, "height": 29}, "words": "1,dounent,getleentydl\"in2).src-2pg:"}, {"location": {"width": 236, "top": 3371, "left": 552, "height": 29}, "words": "nettenfun?"}, {"location": {"width": 402, "top": 3386, "left": 552, "height": 65}, "words": "nt,ecn7:ey=0(181.s.2.p8;"}, {"location": {"width": 46, "top": 3420, "left": 595, "height": 28}, "words": "i"}, {"location": {"width": 95, "top": 3435, "left": 552, "height": 24}, "words": "<:ripl"}, {"location": {"width": 307, "top": 3489, "left": 459, "height": 56}, "words": ":方法:就延到秒谊"}, {"location": {"width": 153, "top": 3530, "left": 549, "height": 28}, "words": "小k照的+事件"}, {"location": {"width": 129, "top": 3663, "left": 455, "height": 24}, "words": "。"}, {"location": {"width": 140, "top": 3697, "left": 551, "height": 31}, "words": "recu:可还点"}, {"location": {"width": 125, "top": 3717, "left": 549, "height": 33}, "words": "=rbur失"}]} 
+2019-09-24 14:11:27:894 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplication on DESKTOP-UTJOI6G with PID 14572 (D:\eclipse-workspace\OCR-web\target\classes started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 14:11:27:905 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 14:11:29:845 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 14:11:31:520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-24 14:11:31:562 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 14:11:31:602 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-24 14:11:31:604 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-24 14:11:32:182 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-24 14:11:32:183 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4142 ms 
+2019-09-24 14:11:32:931 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 14:11:33:225 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 14:11:34:856 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-24 14:11:34:937 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-24 14:11:34:945 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplication in 8.203 seconds (JVM running for 9.473) 
+2019-09-24 14:11:41:161 [http-nio-8080-exec-2] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-24 14:11:41:162 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-24 14:11:41:176 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 13 ms 
+2019-09-24 14:11:41:328 [http-nio-8080-exec-2] INFO  c.s.g.C.PicUploadOcrController upload 32 - 开始使用百度OCR识别图片中的文字 
+2019-09-24 14:57:35:943 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer logDuplicateJsonObjectsWarning 81 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/zaj/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/zaj/.m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+ 
+2019-09-24 14:57:35:985 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplicationTests on DESKTOP-UTJOI6G with PID 4132 (started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 14:57:35:989 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 14:57:38:317 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 14:57:40:778 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 14:57:41:018 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 14:57:43:543 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplicationTests in 8.946 seconds (JVM running for 11.456) 
+2019-09-24 14:57:45:918 [Thread-1] INFO  o.s.s.c.ExecutorConfigurationSupport shutdown 208 - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-24 15:07:51:753 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer logDuplicateJsonObjectsWarning 81 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/zaj/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/zaj/.m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+ 
+2019-09-24 15:07:51:785 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplicationTests on DESKTOP-UTJOI6G with PID 6020 (started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 15:07:51:787 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 15:07:54:176 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 15:07:56:775 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 15:07:56:979 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 15:07:58:755 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplicationTests in 8.421 seconds (JVM running for 11.036) 
+2019-09-24 15:08:02:401 [Thread-1] INFO  o.s.s.c.ExecutorConfigurationSupport shutdown 208 - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-24 15:09:06:699 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer logDuplicateJsonObjectsWarning 81 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/zaj/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/zaj/.m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+ 
+2019-09-24 15:09:06:755 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplicationTests on DESKTOP-UTJOI6G with PID 6752 (started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 15:09:06:780 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 15:09:09:269 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 15:09:11:667 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 15:09:11:949 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 15:09:13:398 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplicationTests in 7.831 seconds (JVM running for 9.834) 
+2019-09-24 15:09:16:639 [Thread-1] INFO  o.s.s.c.ExecutorConfigurationSupport shutdown 208 - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-09-24 15:23:35:768 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplication on DESKTOP-UTJOI6G with PID 12468 (D:\eclipse-workspace\OCR-web\target\classes started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 15:23:35:783 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 15:23:38:370 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 15:23:40:345 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize 90 - Tomcat initialized with port(s): 8080 (http) 
+2019-09-24 15:23:40:387 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing ProtocolHandler ["http-nio-8080"] 
+2019-09-24 15:23:40:422 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting service [Tomcat] 
+2019-09-24 15:23:40:423 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting Servlet engine: [Apache Tomcat/9.0.24] 
+2019-09-24 15:23:40:859 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring embedded WebApplicationContext 
+2019-09-24 15:23:40:860 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext 284 - Root WebApplicationContext: initialization completed in 4858 ms 
+2019-09-24 15:23:41:363 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 15:23:41:529 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 15:23:42:417 [main] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Starting ProtocolHandler ["http-nio-8080"] 
+2019-09-24 15:23:42:495 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer start 202 - Tomcat started on port(s): 8080 (http) with context path '' 
+2019-09-24 15:23:42:507 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplication in 8.535 seconds (JVM running for 10.409) 
+2019-09-24 15:23:54:417 [http-nio-8080-exec-2] INFO  org.apache.juli.logging.DirectJDKLog log 173 - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-09-24 15:23:54:419 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 524 - Initializing Servlet 'dispatcherServlet' 
+2019-09-24 15:23:54:435 [http-nio-8080-exec-2] INFO  o.s.web.servlet.FrameworkServlet initServletBean 546 - Completed initialization in 16 ms 
+2019-09-24 15:24:51:329 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer logDuplicateJsonObjectsWarning 81 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/zaj/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/zaj/.m2/repository/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+ 
+2019-09-24 15:24:51:375 [main] INFO  o.s.boot.StartupInfoLogger logStarting 50 - Starting OcrWebApplicationTests on DESKTOP-UTJOI6G with PID 6228 (started by zaj in D:\eclipse-workspace\OCR-web) 
+2019-09-24 15:24:51:377 [main] INFO  o.s.boot.SpringApplication logStartupProfileInfo 648 - No active profile set, falling back to default profiles: default 
+2019-09-24 15:24:53:911 [main] WARN  org.mybatis.logging.Logger warn 44 - No MyBatis mapper was found in '[com.steelgt.gavin]' package. Please check your configuration. 
+2019-09-24 15:24:56:542 [main] INFO  o.s.s.c.ExecutorConfigurationSupport initialize 171 - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-09-24 15:24:56:755 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping <init> 58 - Adding welcome page template: index 
+2019-09-24 15:24:58:273 [main] INFO  o.s.boot.StartupInfoLogger logStarted 59 - Started OcrWebApplicationTests in 8.221 seconds (JVM running for 10.599) 
+2019-09-24 15:25:00:564 [Thread-1] INFO  o.s.s.c.ExecutorConfigurationSupport shutdown 208 - Shutting down ExecutorService 'applicationTaskExecutor' 
